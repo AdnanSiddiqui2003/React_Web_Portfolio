@@ -1,5 +1,5 @@
 import './App.css';
-import {Routes,Route} from "react-router-dom"
+import {Routes,Route } from 'react-router-dom';
 import './components/site.css'
 import About from './components/About';
 import Navbar from './components/Navbar'
@@ -10,12 +10,12 @@ function App() {
   return (
    <>
    <Navbar/>
-   <Routes>
-       <Route   path='/' element={<Home/>}></Route>
-       <Route   path='about' element={<About/>}></Route>
-       <Route   path='navbar' element={<Navbar/>}></Route>
-       <Route   path='skills' element={<Skills/>}></Route>
-   </Routes>
+  <Routes>
+      <Route exact path='/'       element={<Home/>} />
+      <Route exact path='/about'  element={<About/>}/>
+      <Route exact path='/navbar' element={<Navbar/>}/>
+      <Route exact path='/skills' element={<Skills/>}/>
+  </Routes>
   
    </>
   );

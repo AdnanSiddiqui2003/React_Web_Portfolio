@@ -30,7 +30,10 @@ const Navbar=()=>
                         <Link to="/about" className="li">About</Link>
                       </li>
                       <li className="nav-item">
-                        <Link to="/Skills" className="li">Skills</Link>
+                        <Link to="/skills" className="li">Skills</Link>
+                      </li>
+                      <li className="nav-item">
+                        <Link to="/navbar" className="li">Navbar</Link>
                       </li>
                     </ul>
                   </div>
@@ -42,9 +45,7 @@ const Navbar=()=>
             </div>
                     
            </div>
- </section>
-        
-           
+ </section>      
     </>
     );
      
